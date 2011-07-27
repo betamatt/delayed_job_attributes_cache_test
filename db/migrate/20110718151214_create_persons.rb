@@ -1,4 +1,4 @@
-class CreateTests < ActiveRecord::Migration
+class CreatePersons < ActiveRecord::Migration
   def self.up
     create_table :people do |t|
       t.string   :name
@@ -9,6 +9,6 @@ class CreateTests < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :tests
+    drop_table :people
   end
 end

@@ -7,11 +7,11 @@
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 
 tests = Person.create([ {:name => 'foo1', :age => 1},
-                      {:name => 'foo2', :age => 2},
-                      {:name => 'foo3', :age => 3},
-                      {:name => 'foo4', :age => 4},
-                      {:name => 'foo5', :age => 5},
-                      {:name => 'foo6', :age => 6},
-                      {:name => 'foo7', :age => 7},
-                      {:name => 'foo8', :age => 8},
-                      {:name => 'foo9', :age => 9} ])
+                    	  {:name => 'foo2', :age => 2},
+                      	{:name => 'foo3', :age => 3},
+                      	{:name => 'foo4', :age => 4},
+                    		{:name => 'foo5', :age => 5},
+                    	  {:name => 'foo6', :age => 6},
+                    	  {:name => 'foo7', :age => 7},
+                    	  {:name => 'foo8', :age => 8},
+                    	  {:name => 'foo9', :age => 9} ])
