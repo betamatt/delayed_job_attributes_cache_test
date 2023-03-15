@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '6.1.7.3'
 gem 'rake', '0.8.7'
 
 gem 'mysql2', '< 0.3' # the less than 3 is because 3 removes active record support which is not yet included until rails 3.1
